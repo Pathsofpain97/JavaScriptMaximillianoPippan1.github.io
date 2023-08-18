@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn{
+    border: 0px solid;
+    background-color: rgb(63,63,100);
+    color: white;
+    padding: 17px;
+    border-radius: 7px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 370px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(104,104,163);
+}
