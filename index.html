@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!--Mi Css-->
     <link rel="stylesheet" href="./css/style.css">
     <title>Sistema Interactivo</title>
@@ -11,8 +14,22 @@
 
 <body>
 
-    <button class="btn" onclick="notaAlumnos()">Calcular Notas de alumnos</button>
+    <div class="container text-center">
+        <button type="button" class="btn mt-4" onclick="notaAlumnos()">Calcular Notas de alumnos</button>
+    </div>
 
+    <div class="container text-center">
+        <img src="./img/up-arrow-5359_512.gif" alt="Flecha para arriba" class="img-fluid">
+        <h1 class="textocalcula">Calcula conmigo las notas de todos tus alumnos que necesites.</h1>
+        <p class="textocalcula">Segun cantidad de alumnos cada uno de estos debera tener su propia nota.</p>
+    </div>
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <!-- Javascript mio -->
     <script src="./js/main.js"></script>
 </body>
 
